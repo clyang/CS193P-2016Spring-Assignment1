@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DF810D6D1CCB1ACA00CF1412 /* CalculatorBrain.swift in Sources */ = {isa = PBXBuildFile; fileRef = DF810D6C1CCB1ACA00CF1412 /* CalculatorBrain.swift */; };
 		DFDCE5791CC921A70017EACA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDCE5781CC921A70017EACA /* AppDelegate.swift */; };
 		DFDCE57B1CC921A70017EACA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DFDCE57A1CC921A70017EACA /* ViewController.swift */; };
 		DFDCE57E1CC921A70017EACA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DFDCE57C1CC921A70017EACA /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DF810D6C1CCB1ACA00CF1412 /* CalculatorBrain.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CalculatorBrain.swift; sourceTree = "<group>"; };
 		DFDCE5751CC921A70017EACA /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DFDCE5781CC921A70017EACA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DFDCE57A1CC921A70017EACA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,6 +59,7 @@
 				DFDCE5781CC921A70017EACA /* AppDelegate.swift */,
 				DFDCE57A1CC921A70017EACA /* ViewController.swift */,
 				DFDCE57C1CC921A70017EACA /* Main.storyboard */,
+				DF810D6C1CCB1ACA00CF1412 /* CalculatorBrain.swift */,
 				DFDCE57F1CC921A70017EACA /* Assets.xcassets */,
 				DFDCE5811CC921A70017EACA /* LaunchScreen.storyboard */,
 				DFDCE5841CC921A70017EACA /* Info.plist */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DF810D6D1CCB1ACA00CF1412 /* CalculatorBrain.swift in Sources */,
 				DFDCE57B1CC921A70017EACA /* ViewController.swift in Sources */,
 				DFDCE5791CC921A70017EACA /* AppDelegate.swift in Sources */,
 			);
@@ -288,6 +292,7 @@
 				DFDCE5891CC921A70017EACA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
